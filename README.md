@@ -36,7 +36,7 @@ Parte II - Javascript Intermediário
 3. Eventos de teclado
 4. Eventos de página
 5. Eventos de formulário
-6. Jogo: estourar balões 
+6. Jogo: estourar bolas 
 
 Parte III - Javascript Avançado
 1. Temporização
