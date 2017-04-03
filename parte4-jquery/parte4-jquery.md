@@ -37,8 +37,3 @@ Parte IV - jQuery
 35. O que são Plugins e como usar um Plugin jQuery?
 36. Como criar seu próprio Plugin jQuery
 37. Projetos
-
-Cada conteúdo conterá:
-*conceito - para que serve
-*estrutura - estrutura básica
-*exemplo - um exemplo prático
