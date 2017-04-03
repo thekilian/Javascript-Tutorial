@@ -5,7 +5,7 @@ O objetivo deste tutorial colaborativo é revisar Javascript, passo a passo, par
 
 Para todos aqueles que, assim como eu, não tiveram problemas em acompanhar e entender as excelentes explicações do professor - mas que, na hora de fazer sozinha, sentiu que complicou tudo, rsrs - este tutorial é para você! Vamos estudar juntos e desvendar, definitivamente esse tal de Javascript!
 
-Os conceitos e conteúdos utilizados neste tutorial, foram estudados no bônus de Javascript do curso "PHP do Zero ao Profissional", do grande professor Bonieky Lacerda (https://www.facebook.com/B7Web/?ref=ts&fref=ts). Os conteúdos completos do curso podem ser acessados através do site: http://phpdozeroaoprofissional.com.br/completo/ 
+Os conceitos e conteúdos utilizados neste tutorial, foram estudados no bônus de Javascript do curso "PHP do Zero ao Profissional", do grande professor Bonieky Lacerda (https://www.facebook.com/B7Web/?ref=ts&fref=ts). Os conteúdos completos do curso podem ser acessados através do site: http://phpdozeroaoprofissional.com.br/completo/.
 
 As contribuições para explicar os conceitos e/ou os códigos, modificá-lo e ampliá-los serão muito bem vindas!
 Lembrar de sempre comentar cada alteração realizada.
