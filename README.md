@@ -13,6 +13,7 @@ Lembrar de sempre comentar cada alteração realizada.
 Os conteúdos serão incluídos aos poucos.
 
 Conteúdos:
+
 Parte I - Javascript Básico
 1. Criando variáveis
 2. Prompt de entrada
@@ -86,8 +87,12 @@ Parte IV - jQuery
 37. Projetos
 
 Cada conteúdo conterá:
+
 *conceito - para que serve
+
 *estrutura - estrutura básica
+
 *exemplo - um exemplo prático
+
 
 Let' code and have fun!
