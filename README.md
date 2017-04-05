@@ -88,11 +88,11 @@ Parte IV - jQuery
 
 Cada conteúdo terá:
 
-*conceito - para que serve
+* conceito - para que serve
 
-*estrutura - estrutura básica
+* estrutura - estrutura básica
 
-*exemplo - um exemplo prático
+* exemplo - um exemplo prático
 
 * material complementar - links, livros ou o que for interessante para aprofundarmos aquele conteúdo
 
