@@ -30,7 +30,7 @@ Os nomes das variáveis e das constantes são chamados identificadores. Os ident
 
 Você pode inicializar (definir informações) ou não inicializar (não definir informações) sua var. Se você não inicializar, o valor é considerado indefinido (undefined), ou seja, ele ainda não tem nenhuma informação. Para usar, você deve ter inicializado (definido um valor).
 
-Além do undefined, existe o NaN (not a number), que quer dizer não é um número. Isto aparece quando realizamos cálculos que prevêem números mas que, por alguma razão, são determinados dados não-numéricos para se trabalhar.
+Além do undefined, existe o NaN (not a number), que quer dizer "não é um número". Isto aparece quando realizamos cálculos que prevêem números mas que, por alguma razão, são determinados dados não-numéricos para se trabalhar.
 
 
 1.2. Estrutura:
