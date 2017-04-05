@@ -51,7 +51,7 @@ valor é o valor (rsrs) que esta variável passa a ter
 
 * o ponto e vírgula (;) é ESSENCIAL no final de cada código - ele finaliza aquela linha de código
 
-* as aspas ("") na palavra valor indicam que ela é uma string. Uma string é interpretada pelo JS como texto
+* as aspas ("") na palavra valor indicam que ela é uma string. Uma string é interpretada pelo JS como texto - veremos sobre string, (adição e concatenação) em "8. Operações"
 
 * para ser interpretado como número, ele não deve ser posto entre aspas ou deve-se usar parseInt() - veremos sobre o parseInt em "8. Operações"
 
