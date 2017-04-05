@@ -26,7 +26,7 @@ Os nomes das variáveis e das constantes são chamados identificadores. Os ident
 
 * não são permitidos espaços
 
-* a boa prática indica utilizar camelCase nos identificadores, ou seja, a primeira palavra é toda minúscula e as demais palavras iniciam com letra maiúscula (no exemplo abaixo, por exemplo: nomeVar)
+* a boa prática indica utilizar camelCase nos identificadores, ou seja, a primeira palavra é toda minúscula e as demais palavras iniciam com letra maiúscula (no exemplo abaixo: nomeVar)
 
 Você pode inicializar (definir informações) ou não inicializar (não definir informações) sua var. Se você não inicializar, o valor é considerado indefinido (undefined), ou seja, ele ainda não tem nenhuma informação. Para usar, você deve ter inicializado (definido um valor).
 
