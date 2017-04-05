@@ -58,7 +58,7 @@ valor é o valor (rsrs) que esta variável passa a ter
 
 1.3. Exemplos:
 
-- Definir variáveis:
+- Definir (inicializar) variáveis:
 
 var nome = "Fulano";
 
@@ -68,7 +68,7 @@ var idade = 90;
 
 alert("Meu nome é: "+nome); //ao rodar o código (carregar a página) o alert vai mostrar a mensagem em uma janela
 
-- Exemplo de constante:
+- Definir constante:
 
 const TAXRATE = .925;
 
