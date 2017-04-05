@@ -94,5 +94,7 @@ Cada conteúdo terá:
 
 *exemplo - um exemplo prático
 
+* material complementar - links, livros ou o que for interessante para aprofundarmos aquele conteúdo
+
 
 Let' code and have fun!
