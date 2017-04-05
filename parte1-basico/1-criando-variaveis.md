@@ -76,10 +76,13 @@ const TAXRATE = .925;
 1.4. Material complementar:
 
 - JavaScript Variables (em inglês)
+
 Acesso em: https://www.w3schools.com/js/js_variables.asp
 
 - Valores, Variáveis e Literais
+
 Acesso em: https://developer.mozilla.org/pt-PT/docs/Web/JavaScript/Guia/Valores,_Vari%C3%A1veis_e_Literais
 
 - Constantes
+
 Acesso em: Use a cabeça! Javascript, de Michael Morrison
