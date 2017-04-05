@@ -86,7 +86,7 @@ Parte IV - jQuery
 36. Como criar seu próprio Plugin jQuery
 37. Projetos
 
-Cada conteúdo conterá:
+Cada conteúdo terá:
 
 *conceito - para que serve
 
