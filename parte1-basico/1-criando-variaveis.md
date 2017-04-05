@@ -53,7 +53,7 @@ valor é o valor (rsrs) que esta variável passa a ter
 
 * as aspas ("") na palavra valor indicam que ela é uma string. Uma string é interpretada pelo JS como texto
 
-* para ser interpretado como número, o número não deve ser posto entre aspas ou deve-se usar parseInt()
+* para ser interpretado como número, ele não deve ser posto entre aspas ou deve-se usar parseInt() - veremos sobre o parseInt em "8. Operações"
 
 
 1.3. Exemplos:
