@@ -1,6 +1,6 @@
 Parte V - Bootstrap
 
-1. Introdução
+1. Introdução ao AngularJS
 
 1.1. Conceito:
 
