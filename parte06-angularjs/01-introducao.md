@@ -1,4 +1,4 @@
-Parte V - Bootstrap
+Parte VI - AngularJS
 
 1. Introdução ao AngularJS
 
