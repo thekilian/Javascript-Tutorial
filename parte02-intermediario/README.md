@@ -1,6 +1,6 @@
-Parte II - Javascript Intermediário
+# Parte II - Javascript Intermediário
 
-Conteúdos:
+## Conteúdos:
 
 1. Introdução a eventos
 2. Eventos de mouse
