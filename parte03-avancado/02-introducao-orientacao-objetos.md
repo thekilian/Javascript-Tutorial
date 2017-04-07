@@ -7,3 +7,5 @@ Parte III - Javascript Avançado
 2.2. Estrutura:
 
 2.3. Exemplo:
+
+2.4. Material complementar:
