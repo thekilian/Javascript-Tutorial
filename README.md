@@ -59,7 +59,7 @@ Parte IV - jQuery
 9. Transformando elementos em objetos
 10. Navegando entre elementos
 11. CSS, styling e dimensões
-12. Guardando dados em um elemnto
+12. Guardando dados em um elemento
 13. Métodos do dia-a-dia
 14. FAQ - série de perguntas e respostas
 15. O que é um evento?
