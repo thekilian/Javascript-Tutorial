@@ -7,3 +7,5 @@ Parte II - Javascript Intermediário
 4.2. Estrutura:
 
 4.3. Exemplo:
+
+4.4. Material complementar:
