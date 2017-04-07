@@ -7,3 +7,5 @@ Parte I - Javascript Básico
 5.2. Estrutura: 
 
 5.3. Exemplo:
+
+5.4. Material complementar:
