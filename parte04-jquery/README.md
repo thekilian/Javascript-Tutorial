@@ -1,6 +1,6 @@
-Parte IV - jQuery
+# Parte IV - jQuery
 
-Conteúdos:
+## Conteúdos:
 
 1. O que é jQuery e como funciona
 2. $ ou $()
