@@ -86,6 +86,70 @@ Parte IV - jQuery
 36. Como criar seu próprio Plugin jQuery
 37. Projetos
 
+Parte V - Bootstrap
+1. Introdução
+2. Download
+3. Como o Bootstrap funciona
+4. Bootstrap Container
+5. Bootrstrap Grid
+6. Estilo de texto
+7. Bootstrap Tables
+8. Imagens
+9. Botões
+10. Grupo de botões
+11. Botão Dropdown
+12. Page-header e jumbotrom
+13. Alerts
+14. Labels e Badges
+15. Panels
+16. Collapse
+17. Collapse em Panels
+18. List-group
+19. Tabs
+20. Pager e paginação
+21. Navbar completo
+22. Form
+23. Modal
+
+Parte VI - Angularjs
+1. Introdução ao AngularJS
+2. Expressions
+3. Modules
+4. Directives
+5. Model
+6. Controllers
+7. Repeat
+8. Filters
+9. Select
+10. Http
+11. Show e hide
+12. Eventos
+13. Validação
+14. API
+15. Includes
+16. Exemplo: lista de compras
+
+Parte VII - Nodejs
+1. O que é Nodejs?
+2. Instalando o Node
+3. File I/O
+4. Http Server
+5. Express
+6. Criando módulos
+
+Parte VIII - Ecmascript
+
+
+Parte IX - Angular2
+
+
+Parte X - React
+
+
+Parte XI - Vue
+
+
+
 Cada conteúdo terá:
 
 * conceito - para que serve
