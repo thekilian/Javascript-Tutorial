@@ -17,9 +17,7 @@ prompt("algum texto aqui");
 
 2.3. Exemplo: 
 
-var nome = prompt("Qual seu nome?");
-
-* estamos definindo a var nome com o valor do prompt
+var nome = prompt("Qual seu nome?"); //estamos definindo a var nome com o valor do prompt
 
 
 2.4. Material complementar:
