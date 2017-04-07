@@ -1,6 +1,6 @@
-Parte III - Javascript Avançado
+# Parte III - Javascript Avançado
 
-Conteúdos:
+## Conteúdos:
 
 1. Temporização
 2. Introdução a Orientação a Objetos
