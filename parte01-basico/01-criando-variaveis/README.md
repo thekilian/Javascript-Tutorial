@@ -10,20 +10,27 @@ As variáveis servem para armazenar dados.
 
 Os dados podem ser: 
 
-* **_string_** - sequência de caracteres, basicamente texto
-* **número**  - dados numéricos, números inteiros ou ponto flutuante _float_
+**Tipos primitivos**
+
+* **string** - sequência de caracteres, basicamente texto
+* **número**  - dados numéricos. Números inteiros ou ponto flutuante _float_
 * **booleano**  - true ou false. Também chamado de _boolean_
-* **_null_** - uma palavra-chave que indica um valor nulo - 
-* **_undefined_** - valor que uma variável **não inicializada* recebe ao ser declarada
+* **null** - uma palavra-chave que indica um valor nulo
+* **undefined** - valor que uma variável **não inicializada** recebe ao ser declarada
+
+**Tipos Mistos**
+
+* **array** - Conjunto ou coleção de dados de um tipo ou todos os tipos acima.
 * **objeto** - Mais informações no módulo de JavaScript Avançado
+
 
 Depois de definir uma variável, ela pode ser usada no código, para substituir todo o valor definido para ela.
 
 Uma variável pode ser modificada no decorrer do script.
 
-Além das variáreis, existem as constantes. Depois de definida, a constante terá um valor permanente, elas não podem ser modificadas durante o script.
+Além das variáreis, existem as constantes. Depois de definida, a constante terá um valor permanente. As constantes não podem ser modificadas durante o script.
 
-Os nomes das variáveis e das constantes são chamados identificadores. Os identificadores não podem ser repetidos. Eles devem ser específicos e seguem as seguintes regras:
+Os nomes das variáveis e das constantes são chamados **_identificadores_**. Os identificadores **não** podem ser repetidos. Eles devem ser específicos e seguem as seguintes regras:
 
 * deve ter pelo menos um caractere
 
@@ -40,7 +47,7 @@ Você pode inicializar (definir informações) ou não inicializar (não definir
 Além do `undefined`, existe o `NaN` (not a number), que quer dizer "não é um número". Isto aparece quando realizamos cálculos que prevêem números mas que, por alguma razão, são determinados dados não-numéricos para se trabalhar.
 
 
-**1.2. Estrutura:**
+**1.2. Estrutura básica:**
 
 ```javascript
 const TAXRATE; // não inicializada - undefined
@@ -69,15 +76,27 @@ var nomeVar = "valor"; // inicializada - string
 - Definir (inicializar) variáveis:
 
 ```javascript
-var nome = "Fulano";
+var nome = "Fulano"; // string
 
-var idade = 90;
+var idade = 90; // número - no caso um inteiro
 ```
 
 - Utilizar variáveis:
 
 ```javascript
-alert("Meu nome é: "+nome); //ao rodar o código (carregar a página) o alert vai mostrar a mensagem em uma janela
+/*
+Ao rodar o código abaixo (carregar a página),
+o alert vai mostrar a mensagem em uma janela
+*/
+alert("Meu nome é: "+nome); // o operador '+' aqui concatena
+
+var x = 10;
+var y = 30;
+
+var soma = x + y; // aqui o '+' realiza a soma de fato
+
+// Imprime no console do browser o resultado:
+console.log(soma); 
 ```
 
 - Definir constante:
@@ -85,6 +104,54 @@ alert("Meu nome é: "+nome); //ao rodar o código (carregar a página) o alert v
 ```javascript
 const TAXRATE = .925;
 ```
+
+- Definir um booleano:
+
+```javascript
+var ceuAzul = true;
+```
+
+- Definir um array:
+
+```javascript
+// Para aprender a declarar
+
+// Usa-se [] para declarar um array em JavaScript
+
+// Array de strings
+var cesta = ['laranja' , 'maçã' , 'banana' , 'abacaxi'];
+
+// Array de inteiros
+var naturais = [ 1 , 3 , 8, 23 ];
+
+/*
+Samba do criolo doido. 
+Dá pra fazer, mas não faça isso 
+a menos que tenho um bom motivo
+*/ 
+var samba = ['capacete vermeio', 20 , true , null ];
+```
+
+- Definir um objeto:
+
+```javascript
+// Para aprender a declarar
+
+// Usa-se {} para declarar um objeto em JavaScript
+
+var pessoa = {
+	nome: "Asdrúbal",
+	idade: 39,
+	telefone: '55-1234-56789'
+}
+
+// Teste no seu browser ;)
+alert(pessoa.nome);
+```
+
+:shipit: **Boas práticas** 
+
+**NUNCA** inicialize suas váriáveis, objetos ou arrays com o valor `undefined`. Caso contrário, será muito mais difícil corrigir um bug ou encontrar um erro, visto que este tipo de dado é utilizado pelo interpretador do JavaScript para identificar uma **variável declarada mas ainda não utilizada.**
 
 **1.4. Material complementar:**
 
