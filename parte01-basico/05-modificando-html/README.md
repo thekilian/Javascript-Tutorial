@@ -2,13 +2,13 @@
 
 ## 5. Modificando o HTML
 
-**5.1. Conteúdo:** 
+**5.1. Conceito:** 
 
 Alterar o HTML de **exibição**.
 Este comando **não vai alterar** o arquivo HTML. Se a página for atualizada, volta ao padrão.
 
 
-**5.2. Estrutura:**
+**5.2. Estrutura básica:**
 
 ```javascript
 document.getElementById('nome_do_id').innerHTML = "";
