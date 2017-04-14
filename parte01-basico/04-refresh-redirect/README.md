@@ -12,19 +12,19 @@
 
 A forma mais fácil é adicionar o comando no próprio elemento.
 
-```javascript
+```html
 <button onclick="window.location.href='para onde redirecionar';">Texto</button>
 ```
 
 **4.3. Exemplo:** 
 
 * Refresh:
-```javascript
+```html
 <button onclick="window.location.href='teste.html';">Outra página do site</button>
 ```
 
 * Redirect:
-```javascript
+```html
 <button onclick="window.location.href='http://www.google.com';">Ir para Google</button>
 ```
 
