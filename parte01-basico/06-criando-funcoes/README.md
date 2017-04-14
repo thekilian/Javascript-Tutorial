@@ -32,7 +32,9 @@ Os parâmetros devem ser separados por vírgulas.
 **6.3. Exemplos:** 
 
 * Exemplo 1 - parte 1:
-**No HTML:
+
+**No HTML:**
+
 ```html
 <button onclick="fazerAcao()"></button>
 ```
@@ -41,7 +43,8 @@ Os parâmetros devem ser separados por vírgulas.
 * `onclick` - ao clicar neste elemento (tag)
 * `fazerAcao()` - chama a função
 
-**No Javascript:
+
+**No Javascript:**
 
 ```javascript
 function trocarDiv() {
@@ -61,7 +64,9 @@ function trocarDiv() {
 * ` = texto;` - o valor a ser alterado no 'area.innerHTML' é o que está contido na variável 'texto'
 
 * Exemplo 2 - parte 2 (funções com parâmetros) #1:
-**No HTML:
+
+**No HTML:**
+
 ```html
 <button onclick="trocarDiv('Fulano')">Fazer ação</button>
 ```
@@ -71,7 +76,7 @@ function trocarDiv() {
 * `trocarDiv()` - chama a função
 * `'Fulano'` - parâmetro da função
 
-**No Javascript:
+**No Javascript:**
 
 ```javascript
 function trocarDiv(nome) {
@@ -91,7 +96,9 @@ function trocarDiv(nome) {
 * ` = nome+" "+texto;` - o valor a ser alterado no 'area.innerHTML' é o que está contido no parâmetro 'nome' (neste caso, 'Fulano'), somado à 'texto', que será a resposta inserida pelo usuário no prompt "Qual seu sobrenome?" Se o usuário digitasse, por exemplo, 'De Tal', o retorno seria 'Fulano De Tal'
 
 * Exemplo 3 - parte 2 (funções com parâmetros) #2:
-**No HTML:
+
+**No HTML:**
+
 ```html
 <button onclick="trocarDiv('Fulano', 25)">Fazer ação</button>
 ```
@@ -102,7 +109,7 @@ function trocarDiv(nome) {
 * `'Fulano'` - parâmetro 1
 * `25` - parâmetro 2
 
-**No Javascript:
+**No Javascript:**
 
 ```javascript
 function trocarDiv(nome, idade) {
