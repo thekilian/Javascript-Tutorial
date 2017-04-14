@@ -24,7 +24,7 @@ function nomeFuncao() {
 
 * A **boa prática** dita que o nome da função se inicie com letra minúscula e, no caso de nomear a função com mais de uma palavra, cada nova palavra deve estar em letra maiúcula - seguir o padrão `camelCase`. Não devemos utilizar acentuação no nome da função.
 
-** -Parte 2 - funções com parâmetros**
+**- Parte 2 - funções com parâmetros**
 
 Dentro dos parênteses () - que vem logo após o nome da função - podem haver informações. Essas informações são chamadas de `parâmetros`, também conhecidos como `argumentos`. Dentro da função, os parâmetros se comportam como variáveis locais.
 Os parâmetros devem ser separados por vírgulas.
