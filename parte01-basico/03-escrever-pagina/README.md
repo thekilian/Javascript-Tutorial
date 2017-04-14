@@ -2,14 +2,14 @@
 
 ## 3. Escrever na página
 
-**3.1. Conteúdo:** 
+**3.1. Conceito:** 
 
 Utilizamos o comando `document.write()` para inserir qualquer tag HTML na página.
 Este comando **insere** informações, **não** substitui.
 Geralmente é utilizado para testes. Se for usado depois do HTML ser totalmente carregado, apagará todo o HTML existente.
 
 
-**3.2. Estrutura:**
+**3.2. Estrutura básica:**
 
 ```javascript
 document.write();
