@@ -34,7 +34,7 @@ document.getElementById('nome_do_id').innerHTML = "";
 ```
 
 - onde:
-* `this` - é o prórpio elemento 
+* `this` - é o próprio elemento 
 
 
 **5.4. Material complementar:**
