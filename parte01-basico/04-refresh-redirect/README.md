@@ -2,13 +2,13 @@
 
 ## 4. Refresh ou Redirect
 
-**4.1. Conteúdo:** 
+**4.1. Conceito:** 
 
 * Refresh - Javascript vai enviar para a mesma página
 * Redirect - Javascript vai enviar para outra página
 
 
-**4.2. Estrutura:**
+**4.2. Estrutura básica:**
 
 A forma mais fácil é adicionar o comando no próprio elemento.
 
