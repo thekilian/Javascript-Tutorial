@@ -5,7 +5,7 @@
 **3.1. Conteúdo:** 
 
 Utilizamos o comando `document.write()` para inserir qualquer tag HTML na página.
-Este comando apenas insere informações, **não** substitui.
+Este comando **insere** informações, **não** substitui.
 
 
 **3.2. Estrutura:**
