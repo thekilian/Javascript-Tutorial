@@ -1,6 +1,6 @@
-Parte I - Javascript Básico
+# Parte I - Javascript Básico
 
-6. Criando Funções
+## 6. Criando Funções
 
 **6.1. Conceito:** 
 
