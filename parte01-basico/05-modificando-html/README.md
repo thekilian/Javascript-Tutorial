@@ -16,7 +16,7 @@ document.getElementById('nome_do_id').innerHTML = "";
 
 **5.3. Exemplo:** 
 
-* Exemplo 1 - ao clicar no botão, substituir por informação do prompt:
+**Exemplo 1** - ao clicar no botão, substituir por informação do prompt:
 ```javascript
 <button onclick="document.getElementById('area').innerHTML = prompt('Qual seu nome?');">Fazer a ação</button>
 ```
@@ -28,7 +28,7 @@ document.getElementById('nome_do_id').innerHTML = "";
 * `prompt` - substitui pelo prompt, ou seja, pela informação que o usuário digitar
 
 
-* Exemplo 2 - alterar nome do botão:
+**Exemplo 2** - alterar nome do botão:
 ```javascript
 <button onclick="this.innerHTML = prompt('Qual o nome do botão?');">Fazer a ação</button>
 ```
