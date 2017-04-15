@@ -10,15 +10,16 @@ _Observação_ - o sinal de adição (+) pode significar a soma dos elementos ou
 
 * `soma`: 1 + 1 = 2, por exemplo
 
-* `concatenção`: "1" + "1" = 11, por exemplo. Se apenas um dos elementos for uma string, ainda assim, será uma concatenação, e **não** uma soma: "1" + 1 = 11, por exemplo. 
+* `concatenção`: "1" + "1" = 11, por exemplo. Se apenas um dos elementos for uma `string`, ainda assim, será uma concatenação, e **não** uma soma: "1" + 1 = 11, por exemplo. 
 
 
 **8.2. Estrutura básica:**
 
 ```javascript
-function nomeFuncao() {
-    //código a ser executado
-}
+1 + 1;
+2 - 1;
+2 * 2;
+4 / 2;
 ``` 
 
 **8.3. Exemplos:** 
@@ -64,7 +65,7 @@ _Resultado: 50_
 `Resultado` - alert mostrará o resultado (neste caso, a soma dos valores 20 e 30)
 
 
-**Exemplo 1 - concatenação #1:**
+**Exemplo 3 - concatenação #1:**
 
 ```javascript
 var x = "5" + "3";
@@ -83,7 +84,7 @@ _Resultado: 53_
 `Resultado` - alert mostrará o resultado (neste caso, a concatenação dos valores "5" e "3")
 
 
-**Exemplo 2 - concatenação #2:**
+**Exemplo 4 - concatenação #2:**
 
 ```javascript
 var x = "20";
@@ -103,6 +104,34 @@ _Resultado: 2030_
 `alert(y)` - chama a variável `y` via `alert`
 
 `Resultado` - alert mostrará o resultado (neste caso, a concatenação dos valores "20 e "30")
+
+
+**Exemplo 5:**
+
+* No HTML:
+
+```html
+
+```
+
+* No Javscript:
+
+```javascript
+var x = 5 + 3;
+
+alert(x);
+```
+
+_Resultado: 8_
+
+- onde:
+
+`var x` - define valores para a variável `x` (neste caso, 5 + 3)
+
+`alert(x)` - chama a variável `x` via `alert`
+
+`Resultado` - alert mostrará o resultado (neste caso, a soma dos valores 5 e 3)
+
 
 
 **8.4. Material complementar:**
