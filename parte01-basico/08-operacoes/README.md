@@ -4,7 +4,7 @@
 
 **8.1. Conceito:** 
 
-Manipulação de elementos de uma lista.
+Como realizar operações com Javascript.
 
 
 **8.2. Estrutura básica:**
