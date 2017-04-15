@@ -64,6 +64,46 @@ _Resultado: 50_
 `Resultado` - alert mostrará o resultado (neste caso, a soma dos valores 20 e 30)
 
 
+**Exemplo 1 - concatenação #1:**
+
+```javascript
+var x = "5" + "3";
+
+alert(x);
+```
+
+_Resultado: 53_
+
+- onde:
+
+`var x` - define valores para a variável `x` (neste caso, "5" + "3")
+
+`alert(x)` - chama a variável `x` via `alert`
+
+`Resultado` - alert mostrará o resultado (neste caso, a concatenação dos valores "5" e "3")
+
+
+**Exemplo 2 - concatenação #2:**
+
+```javascript
+var x = "20";
+var y = x + "30";
+
+alert(y);
+```
+
+_Resultado: 2030_
+
+- onde:
+
+`var x` - define valores para a variável `x` (neste caso, "20")
+
+`var y` - define valores para a variável `y` (neste caso, x + "30")
+
+`alert(y)` - chama a variável `y` via `alert`
+
+`Resultado` - alert mostrará o resultado (neste caso, a concatenação dos valores "20 e "30")
+
 
 **8.4. Material complementar:**
 
