@@ -4,15 +4,30 @@
 
 **9.1. Conceito:** 
 
-Array é uma variável mais avançada que armazena vários valores. É uma variável composta.
+Array é uma variável mais avançada - uma variável composta - que armazena vários valores.
+
+Os elementos dentro do array seguem a ordem numérica, iniciando pelo zero (0), ou seja, o primeiro item de um array é considerado zero (0); o segundo item é o um (1); e assim por diante. 
+
 
 **9.2. Estrutura básica:**
 
 ```javascript
-1 + 1;
-2 - 1;
-2 * 2;
-4 / 2;
+var nome_array = [item1, item2, item3, item4, item5...];
+``` 
+
+_Observação:_ ordem os elementos - var nome_array = [0, 1, 2, 3, 4, ...];
+
+- Um array também pode ser apresentado em múltiplas linhas, da seguinte forma:
+
+```javascript
+var nome_array = [
+  item1,
+  item2,
+  item3,
+  item4,
+  item5
+  ...
+];
 ``` 
 
 **9.3. Exemplos:** 
