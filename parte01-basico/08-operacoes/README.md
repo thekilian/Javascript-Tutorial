@@ -6,6 +6,12 @@
 
 Como realizar operações com Javascript.
 
+_Observação_ - o sinal de adição (+) pode significar a soma dos elementos ou a concatenação deles:
+
+* `soma` - 
+
+* `concatenção` - 
+
 
 **8.2. Estrutura básica:**
 
