@@ -44,7 +44,7 @@ function adicionarIngrediente() {
 
 ` listahtml = listahtml + "<li>"+ing+"</li>";` - esta linha de código vai pegar o conteúdo que tem na var 'listahtml' e vai somar a este conteúdo o que o usuário digitar
 
-`"<li>"+ing+"</li>"` - inclui a informação digitada pelo usuário (ing) na lista ("<li>")
+`"<li>"+ing+"</li>"` - inclui a informação digitada pelo usuário (ing) na lista (tag "li")
 
 
 - resumindo: neste exemplo, você pega o conteúdo do elemento atual, adiciona mais conteúdo a ele e substitui depois.
