@@ -111,7 +111,9 @@ _Resultado: 2030_
 * No HTML:
 
 ```html
-
+<input type="text" name="campo1" id="campo1"/>
+<input type="text" name="campo2" id="campo2"/>
+<button onclick="somar()"></button>
 ```
 
 * No Javscript:
