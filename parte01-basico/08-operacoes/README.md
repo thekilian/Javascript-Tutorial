@@ -4,7 +4,7 @@
 
 **8.1. Conceito:** 
 
-Como realizar operações com Javascript.
+Realizar operações com Javascript.
 
 _Observação_ - o sinal de adição (+) pode significar a soma dos elementos ou a concatenação deles:
 
