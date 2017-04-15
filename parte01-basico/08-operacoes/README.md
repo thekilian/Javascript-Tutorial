@@ -27,6 +27,7 @@ function nomeFuncao() {
 
 ```javascript
 var x = 5 + 3;
+
 alert(x);
 ```
 
@@ -39,23 +40,28 @@ _Resultado: 8_
 `alert(x)` - chama a variável `x` via `alert`
 
 `Resultado` - alert mostrará o resultado (neste caso, a soma dos valores 5 e 3)
+
 
 **Exemplo 2 - soma #2:**
 
 ```javascript
-var x = 5 + 3;
-alert(x);
+var x = 20;
+var y = x + 30;
+
+alert(y);
 ```
 
-_Resultado: 8_
+_Resultado: 50_
 
 - onde:
 
-`var x` - define valores para a variável `x` (neste caso, 5 + 3)
+`var x` - define valores para a variável `x` (neste caso, 20)
 
-`alert(x)` - chama a variável `x` via `alert`
+`var y` - define valores para a variável `y` (neste caso, x + 30)
 
-`Resultado` - alert mostrará o resultado (neste caso, a soma dos valores 5 e 3)
+`alert(y)` - chama a variável `y` via `alert`
+
+`Resultado` - alert mostrará o resultado (neste caso, a soma dos valores 20 e 30)
 
 
 
