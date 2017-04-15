@@ -138,6 +138,6 @@ _Resultado: 8_
 
 **8.4. Material complementar:**
 
-- Value Property (em inglês)
+- Operators (em inglês)
 
-Acesso em: 
+Acesso em: https://www.w3schools.com/js/js_operators.asp
