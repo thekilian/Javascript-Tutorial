@@ -22,6 +22,8 @@ function nomeFuncao() {
 **Lembrando que:**
 * Para ser uma função, é necessário utilizar parênteses no final do nome, por exemplo: `fazerAcao()`
 
+:shipit: **Boas práticas** 
+
 * A **boa prática** dita que o nome da função se inicie com letra minúscula e, no caso de nomear a função com mais de uma palavra, cada nova palavra deve estar em letra maiúcula - seguir o padrão `camelCase`. Não devemos utilizar acentuação no nome da função.
 
 **- Parte 2 - funções com parâmetros:**
