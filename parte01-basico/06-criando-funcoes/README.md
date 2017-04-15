@@ -161,7 +161,7 @@ function trocarDiv(nome, idade) {
   - a palavra "tem", mais
   - a informação do parâmetro 'idade' (neste caso, 25), mais
   - a palavra "anos"
-  - Então, se o usuário digitasse, por exemplo, 'De Tal', o retorno seria: Fulano De Tal tem 25 anos
+  Então, se o usuário digitasse, por exemplo, 'De Tal', o retorno seria: Fulano De Tal tem 25 anos
 
 **6.4. Material complementar:**
 
