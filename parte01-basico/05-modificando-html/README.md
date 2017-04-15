@@ -22,10 +22,14 @@ document.getElementById('nome_do_id').innerHTML = "";
 ```
 
 - onde:
-* `document` - vai no documento
-* `getElementById` - procura elemento (tag) com id 'area'
-* `inner.HTML` - vai substituir informação no innerHtml, ou seja, na parte interna do HTML
-* `prompt` - substitui pelo prompt, ou seja, pela informação que o usuário digitar
+
+`document` - vai no documento
+
+`getElementById` - procura elemento (tag) com id 'area'
+
+`inner.HTML` - vai substituir informação no innerHtml, ou seja, na parte interna do HTML
+
+`prompt` - substitui pelo prompt, ou seja, pela informação que o usuário digitar
 
 
 **Exemplo 2** - alterar nome do botão:
@@ -34,7 +38,8 @@ document.getElementById('nome_do_id').innerHTML = "";
 ```
 
 - onde:
-* `this` - é o próprio elemento 
+
+`this` - é o próprio elemento 
 
 
 **5.4. Material complementar:**
