@@ -119,20 +119,30 @@ _Resultado: 2030_
 * No Javscript:
 
 ```javascript
-var x = 5 + 3;
-
-alert(x);
+function somar() {
+  var campo1 = parseInt(document.getElementById("campo1").value);
+  var campo2 = parseInt(document.getElementById("campo2").value);
+  
+  var soma = campo1 + campo2;
+  
+  alerta(soma);
+}
 ```
 
-_Resultado: 8_
 
 - onde:
 
-`var x` - define valores para a variável `x` (neste caso, 5 + 3)
+`somar()` - nome definido para a função
 
-`alert(x)` - chama a variável `x` via `alert`
+`var campo1` - define valores para a variável `campo1` (neste caso, o que o usuário inserir no campo 1 - por causa do `value`)
 
-`Resultado` - alert mostrará o resultado (neste caso, a soma dos valores 5 e 3)
+`var campo2` - define valores para a variável `campo2` (neste caso, o que o usuário inserir no campo 2 - por causa do `value`)
+
+`value` - pega o valor inserido pelo usuário (neste caso, o que for inserido nos campos 1 e 2, respectivamente)
+
+`var soma` - define valores para a variável `soma` (neste caso, a soma dos valores inseridos pelo usuário nos campos 1 e 2)
+
+`alert(soma)` - chama variável `soma` via `alert`
 
 
 
