@@ -21,28 +21,41 @@ function nomeFuncao() {
 }
 ``` 
 
-**8.3. Exemplo:** 
+**8.3. Exemplos:** 
+
+**Exemplo 1 - soma #1:**
 
 ```javascript
-function adicionarIngrediente() {
-  var ing = document.getElementById("ingrediente").value;
-  var listahtml = document.getElementById("lista").innerHTML;
-  
-  listahtml = listahtml + "<li>"+ing+"</li>";
-  
-  document.getElementById("lista").innerHTML = listahtml;
-}
+var x = 5 + 3;
+alert(x);
 ```
+
+_Resultado: 8_
 
 - onde:
 
-`adicionarIngrediente()` - nome da função
+`var x` - define valores para a variável `x` (neste caso, 5 + 3)
 
-`var ing` - variável chamada 'ing', tem o valor do elemento de id 'ingrediente' somado ao `value`
+`alert(x)` - chama a variável `x` via `alert`
 
-`var listahtml` - variável chamada 'listahtml', tem o valor do elemento de id 'lista' e armazena o conteúdo do innerHTML na variável 'listahtml'
+`Resultado` - alert mostrará o resultado (neste caso, a soma dos valores 5 e 3)
 
-`value` - pega o valor digitado pelo usuário
+**Exemplo 2 - soma #2:**
+
+```javascript
+var x = 5 + 3;
+alert(x);
+```
+
+_Resultado: 8_
+
+- onde:
+
+`var x` - define valores para a variável `x` (neste caso, 5 + 3)
+
+`alert(x)` - chama a variável `x` via `alert`
+
+`Resultado` - alert mostrará o resultado (neste caso, a soma dos valores 5 e 3)
 
 
 
