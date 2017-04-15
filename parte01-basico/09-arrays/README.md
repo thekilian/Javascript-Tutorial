@@ -32,7 +32,7 @@ var nome_array = [
 
 **9.3. Exemplos:** 
 
-**Exemplo 1 - lista:**
+**Exemplo 1 - array completa:**
 
 ```javascript
 var lista = ["arroz", "feijão", "carne", 20];
@@ -51,109 +51,42 @@ _Resultado: ["arroz", "feijão", "carne", 20]_
 `Resultado` - mostrará o resultado (neste caso, todos os elementos do array: ["arroz", "feijão", "carne", 20])
 
 
-**Exemplo 2 - soma #2:**
+**Exemplo 2 - um elemento do array:**
 
 ```javascript
-var x = 20;
-var y = x + 30;
+var lista = ["arroz", "feijão", "carne", 20];
 
-alert(y);
+lista[0];
 ```
 
-_Resultado: 50_
+_Resultado: "arroz"_
 
 - onde:
 
-`var x` - define valores para a variável `x` (neste caso, 20)
+`var lista` - define valores para a variável `lista` (neste caso, arroz, feijão, carne, 20)
 
-`var y` - define valores para a variável `y` (neste caso, x + 30)
+`lista[0]` - chama o primeiro elemento da variável `lista`
 
-`alert(y)` - chama a variável `y` via `alert`
-
-`Resultado` - alert mostrará o resultado (neste caso, a soma dos valores 20 e 30)
+`Resultado` - mostrará o resultado (neste caso, o primeiro elemento do array: "arroz")
 
 
-**Exemplo 3 - concatenação #1:**
+**Exemplo 2 - tamanho do array:**
 
 ```javascript
-var x = "5" + "3";
+var lista = ["arroz", "feijão", "carne", 20];
 
-alert(x);
+lista.lenght;
 ```
 
-_Resultado: 53_
+_Resultado: 4_
 
 - onde:
 
-`var x` - define valores para a variável `x` (neste caso, "5" + "3")
+`var lista` - define valores para a variável `lista` (neste caso, arroz, feijão, carne, 20)
 
-`alert(x)` - chama a variável `x` via `alert`
+`lenght` - retorna o número de elementos do array
 
-`Resultado` - alert mostrará o resultado (neste caso, a concatenação dos valores "5" e "3")
-
-
-**Exemplo 4 - concatenação #2:**
-
-```javascript
-var x = "20";
-var y = x + "30";
-
-alert(y);
-```
-
-_Resultado: 2030_
-
-- onde:
-
-`var x` - define valores para a variável `x` (neste caso, "20")
-
-`var y` - define valores para a variável `y` (neste caso, x + "30")
-
-`alert(y)` - chama a variável `y` via `alert`
-
-`Resultado` - alert mostrará o resultado (neste caso, a concatenação dos valores "20 e "30")
-
-
-**Exemplo 5:**
-
-* No HTML:
-
-```html
-<input type="text" name="campo1" id="campo1"/>
-<input type="text" name="campo2" id="campo2"/>
-<button onclick="somar()"></button>
-```
-
-* No Javscript:
-
-```javascript
-function somar() {
-  var campo1 = parseInt(document.getElementById("campo1").value);
-  var campo2 = parseInt(document.getElementById("campo2").value);
-  
-  var soma = campo1 + campo2;
-  
-  alerta(soma);
-}
-```
-
-
-- onde:
-
-`somar()` - nome definido para a função
-
-`var campo1` - define valores para a variável `campo1` (neste caso, o que o usuário inserir no campo 1 - por causa do `value`)
-
-`var campo2` - define valores para a variável `campo2` (neste caso, o que o usuário inserir no campo 2 - por causa do `value`)
-
-`parseInt()` - transforma elemento em número
-
-`value` - pega o valor inserido pelo usuário (neste caso, o que for inserido nos campos 1 e 2, respectivamente)
-
-`var soma` - define valores para a variável `soma` (neste caso, a soma dos valores inseridos pelo usuário nos campos 1 e 2)
-
-`alert(soma)` - chama variável `soma` via `alert`
-
+`Resultado` - mostrará o resultado (neste caso, o número total de elementos do array: 4)
 
 
 **9.4. Material complementar:**
