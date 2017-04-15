@@ -4,9 +4,7 @@
 
 **10.1. Conceito:** 
 
-Array é uma variável mais avançada - uma variável composta - que armazena vários valores.
-
-Os elementos dentro do array seguem a ordem numérica, iniciando pelo zero (0), ou seja, o primeiro item de um array é considerado zero (0); o segundo item é o um (1); e assim por diante. 
+Manipulando arrays.
 
 
 **10.2. Estrutura básica:**
