@@ -8,9 +8,9 @@ Como realizar operações com Javascript.
 
 _Observação_ - o sinal de adição (+) pode significar a soma dos elementos ou a concatenação deles:
 
-* `soma` - 
+* `soma`: 1 + 1 = 2, por exemplo
 
-* `concatenção` - 
+* `concatenção`: "1" + "1" = 11, por exemplo. Se apenas um dos elementos for uma string, ainda assim, será uma concatenação, e **não** uma soma: "1" + 1 = 11, por exemplo. 
 
 
 **8.2. Estrutura básica:**
