@@ -138,6 +138,8 @@ function somar() {
 
 `var campo2` - define valores para a variável `campo2` (neste caso, o que o usuário inserir no campo 2 - por causa do `value`)
 
+`parseInt()` - transforma elemento em número
+
 `value` - pega o valor inserido pelo usuário (neste caso, o que for inserido nos campos 1 e 2, respectivamente)
 
 `var soma` - define valores para a variável `soma` (neste caso, a soma dos valores inseridos pelo usuário nos campos 1 e 2)
@@ -151,3 +153,7 @@ function somar() {
 - Operators (em inglês)
 
 Acesso em: https://www.w3schools.com/js/js_operators.asp
+
+- parseInt() (em inglês)
+
+Acesso em: https://www.w3schools.com/jsref/jsref_parseint.asp
