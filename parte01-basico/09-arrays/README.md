@@ -15,7 +15,7 @@ Os elementos dentro do array seguem a ordem numérica, iniciando pelo zero (0), 
 var nome_array = [item1, item2, item3, item4, item5...];
 ``` 
 
-_Observação:_ ordem os elementos - var nome_array = [0, 1, 2, 3, 4, ...];
+_Observação_ - ordem os elementos: var nome_array = [0, 1, 2, 3, 4, ...];
 
 - Um array também pode ser apresentado em múltiplas linhas, da seguinte forma:
 
@@ -32,23 +32,23 @@ var nome_array = [
 
 **9.3. Exemplos:** 
 
-**Exemplo 1 - soma #1:**
+**Exemplo 1 - lista:**
 
 ```javascript
-var x = 5 + 3;
+var lista = ["arroz", "feijão", "carne", 20];
 
-alert(x);
+lista;
 ```
 
-_Resultado: 8_
+_Resultado: ["arroz", "feijão", "carne", 20]_
 
 - onde:
 
-`var x` - define valores para a variável `x` (neste caso, 5 + 3)
+`var lista` - define valores para a variável `lista` (neste caso, arroz, feijão, carne, 20)
 
-`alert(x)` - chama a variável `x` via `alert`
+`lista` - chama a variável `lista`
 
-`Resultado` - alert mostrará o resultado (neste caso, a soma dos valores 5 e 3)
+`Resultado` - mostrará o resultado (neste caso, todos os elementos do array: ["arroz", "feijão", "carne", 20])
 
 
 **Exemplo 2 - soma #2:**
