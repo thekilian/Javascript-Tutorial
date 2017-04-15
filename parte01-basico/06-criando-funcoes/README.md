@@ -40,8 +40,8 @@ Os parâmetros devem ser separados por vírgulas.
 ```
 
 - onde:
-* `onclick` - ao clicar neste elemento (tag)
-* `fazerAcao()` - chama a função
+`onclick` - ao clicar neste elemento (tag)
+`fazerAcao()` - chama a função
 
 
 * No Javascript:
