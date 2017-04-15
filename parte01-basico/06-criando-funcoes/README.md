@@ -12,7 +12,7 @@ A função é executada quando alguma coisa a "chama". Ela pode ser usada vária
 **- Parte 1:**
 
 Uma função é definida pela palavra `function`, seguida pelo seu nome, seguida por parênteses ().
-O código a ser executado é colocado dentro de chaves {}
+O código a ser executado é colocado dentro de chaves {}.
 
 ```javascript
 function nomeFuncao() {
@@ -40,7 +40,9 @@ Os parâmetros devem ser separados por vírgulas.
 ```
 
 - onde:
+
 `onclick` - ao clicar neste elemento (tag)
+
 `fazerAcao()` - chama a função
 
 
@@ -56,11 +58,17 @@ function trocarDiv() {
 ```
 
 - onde:
+
 `function` - procura elemento (tag) com id 'area'
+
 `trocarDiv()` - nome da função
+
 `var area` - variável chamada 'area', tem o valor do elemento de id 'area'
+
 `var texto` - variável chamada 'texto', tem o valor do prompt com a mensagem "Qual seu nome?"
+
 `area.innerHTML` - vai alterar a informação interna do HTML da variável 'area'
+
 ` = texto;` - o valor a ser alterado no 'area.innerHTML' é o que está contido na variável 'texto'
 
 **Exemplo 2 - parte 2 (funções com parâmetros) #1:**
@@ -72,8 +80,11 @@ function trocarDiv() {
 ```
 
 - onde:
+
 `onclick` - ao clicar neste elemento (tag button)
+
 `trocarDiv()` - chama a função
+
 `'Fulano'` - parâmetro da função
 
 * No Javascript:
@@ -88,11 +99,17 @@ function trocarDiv(nome) {
 ```
 
 - onde:
+
 `function` - procura elemento (tag) com id 'area'
+
 `trocarDiv()` - nome da função
+
 `var area` - variável chamada 'area', tem o valor do elemento de id 'area'
+
 `var texto` - variável chamada 'texto', tem o valor do prompt com a mensagem "Qual seu nome?"
+
 `area.innerHTML` - vai alterar a informação interna do HTML da variável 'area'
+
 ` = nome+" "+texto;` - o valor a ser alterado no 'area.innerHTML' é o que está contido no parâmetro 'nome' (neste caso, 'Fulano'), somado à 'texto', que será a resposta inserida pelo usuário no prompt "Qual seu sobrenome?" Se o usuário digitasse, por exemplo, 'De Tal', o retorno seria 'Fulano De Tal'
 
 **Exemplo 3 - parte 2 (funções com parâmetros) #2:**
@@ -104,9 +121,13 @@ function trocarDiv(nome) {
 ```
 
 - onde:
+
 `onclick` - ao clicar neste elemento (tag button)
+
 `trocarDiv()` - chama a função
+
 `'Fulano'` - parâmetro 1
+
 `25` - parâmetro 2
 
 * No Javascript:
@@ -121,11 +142,17 @@ function trocarDiv(nome, idade) {
 ```
 
 - onde:
+
 `function` - procura elemento (tag) com id 'area'
+
 `trocarDiv()` - nome da função
+
 `var area` - variável chamada 'area', tem o valor do elemento de id 'area'
+
 `var texto` - variável chamada 'texto', tem o valor do prompt com a mensagem "Qual seu nome?"
+
 `area.innerHTML` - vai alterar a informação interna do HTML da variável 'area'
+
 ` = nome+" "+texto+" tem" +idade+" anos";` - o valor a ser alterado no 'area.innerHTML' é o seguinte:
   - a informação do parâmetro 'nome' (neste caso, 'Fulano'), mais
   - a informação da variável 'texto', que será a resposta inserida pelo usuário no prompt "Qual seu sobrenome?", mais
