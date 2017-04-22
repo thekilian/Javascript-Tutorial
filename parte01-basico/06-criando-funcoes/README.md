@@ -9,7 +9,7 @@ A função é executada quando alguma coisa a "chama". Ela pode ser usada vária
 
 **6.2. Estrutura básica:**
 
-**- Parte 1:**
+**- Parte 1: - Declaração e uso:** 
 
 Uma função é definida pela palavra `function`, seguida pelo seu nome, seguida por parênteses ().
 O código a ser executado é colocado dentro de chaves {}.
@@ -24,7 +24,10 @@ function nomeFuncao() {
 
 :shipit: **Boas práticas** 
 
-* A **boa prática** dita que o nome da função se inicie com letra minúscula e, no caso de nomear a função com mais de uma palavra, cada nova palavra deve estar em letra maiúcula - seguir o padrão `camelCase`. Não devemos utilizar acentuação no nome da função.
+* A **boa prática** dita que o nome da função se inicie com letra minúscula
+* Caso de nomear a função possua mais de uma palavra, cada nova palavra deve estar em letra maiúscula
+ seguindo o padrão `camelCase`. 
+* Não devemos utilizar acentuação no nome da função. Na verdade, **não use em lugar algum**.
 
 **- Parte 2 - funções com parâmetros:**
 
@@ -33,19 +36,19 @@ Os parâmetros devem ser separados por vírgulas.
 
 **6.3. Exemplos:** 
 
-**Exemplo 1 - parte 1:**
+**Exemplo 1 - Utlização no HTML**
 
 * No HTML:
 
 ```html
-<button onclick="fazerAcao()"></button>
+<button onclick="trocarDiv()"></button>
 ```
 
 - onde:
 
 `onclick` - ao clicar neste elemento (tag)
 
-`fazerAcao()` - chama a função
+`trocarDiv()` - chama a função
 
 
 * No Javascript:
@@ -61,19 +64,19 @@ function trocarDiv() {
 
 - onde:
 
-`function` - procura elemento (tag) com id 'area'
+`document.getElementById("area")` - procura elemento (tag) com id 'area'
 
 `trocarDiv()` - nome da função
 
 `var area` - variável chamada 'area', tem o valor do elemento de id 'area'
 
-`var texto` - variável chamada 'texto', tem o valor do prompt com a mensagem "Qual seu nome?"
+`var texto` - variável chamada 'texto'. tem o valor do prompt com a mensagem "Qual seu nome?"
 
 `area.innerHTML` - vai alterar a informação interna do HTML da variável 'area'
 
 ` = texto;` - o valor a ser alterado no 'area.innerHTML' é o que está contido na variável 'texto'
 
-**Exemplo 2 - parte 2 (funções com parâmetros) #1:**
+**Exemplo 2 - Funções com parâmetros:**
 
 * No HTML:
 
@@ -102,7 +105,7 @@ function trocarDiv(nome) {
 
 - onde:
 
-`function` - procura elemento (tag) com id 'area'
+`document.getElementById("area")` - procura elemento (tag) com id 'area'
 
 `trocarDiv()` - nome da função
 
@@ -114,7 +117,7 @@ function trocarDiv(nome) {
 
 ` = nome+" "+texto;` - o valor a ser alterado no 'area.innerHTML' é o que está contido no parâmetro 'nome' (neste caso, 'Fulano'), somado à 'texto', que será a resposta inserida pelo usuário no prompt "Qual seu sobrenome?" Se o usuário digitasse, por exemplo, 'De Tal', o retorno seria 'Fulano De Tal'
 
-**Exemplo 3 - parte 2 (funções com parâmetros) #2:**
+**Exemplo 3 - Funções com mais de um  parâmetro:**
 
 * No HTML:
 
@@ -145,7 +148,7 @@ function trocarDiv(nome, idade) {
 
 - onde:
 
-`function` - procura elemento (tag) com id 'area'
+`document.getElementById("area")` - procura elemento (tag) com id 'area'
 
 `trocarDiv()` - nome da função
 
