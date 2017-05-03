@@ -1,5 +1,5 @@
-# javascript-tutorial
-Tutorial Javascript
+# Javascript-Tutorial
+## Estudo de Javascript
 
 O objetivo deste tutorial colaborativo é revisar Javascript, passo a passo, para melhorar o entendimento e absorver esta linguagem de programação, através da revisão dos conceitos e de uma certa prática.
 
